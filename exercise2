@@ -1,0 +1,21 @@
+using System;
+
+public class HelloWorld
+{
+    public static void Main(string[] args)
+    {
+        for(int i=4; i>=0; i--)
+        {
+        
+            for(int y=i; y>=0; y--)
+            {
+                Console.Write(" ");
+            }
+            for(int k=i;k<=4;k++)
+            {
+                Console.Write("*");
+            }
+                Console.WriteLine("");
+        }
+    }
+}
